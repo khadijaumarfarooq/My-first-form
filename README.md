@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khadija Umar Farooq - HTML Practice</title>
-  <meta name="description" content="HTML practice page by Khadija Umar Farooq, student of 12th class Pre-Engineering.">
-  <style>
-    <body> { font-family: Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
-    h1, h2, h3 { color: #2c3e50; }
-    section { background: white; padding: 15px; margin: 15px 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-    th, td { border: 1px solid #555; padding: 8px; text-align: center; }
-    th { background: #2c3e50; color: white; }
-    form { display: flex; flex-direction: column; }
-    input, select, textarea, button { margin: 8px 0; padding: 8px; border-radius: 5px; border: 1px solid #aaa; }
-    button { background: #2c3e50; color: white; cursor: pointer; }
-    button:hover { background: #34495e; }
-  </style>
-</head>
-<body>
-
+   <title>Khadija Umar Farooq - HTML Practice</title>
+ <style>
+    body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  section {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background: #2c3e50;
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input, select, textarea, button {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+  }
+  button {
+    background: #2c3e50;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #34495e;
+  }
+</style>
   <h1>🌸 Welcome to HTML Playground 🌸</h1>
   <p style="text-align:center;">Here I will practice basic HTML tags and elements.</p>
 
@@ -122,8 +154,7 @@
       <input type="checkbox" value="coding"> Coding
       <input type="checkbox" value="traveling"> Traveling
 
-  <label>Message:</label>
-      <textarea rows="4" placeholder="Write your message..."></textarea>
+  
 
   label>Upload File:</label>
       <input type="file">
