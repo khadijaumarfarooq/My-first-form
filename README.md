@@ -155,6 +155,8 @@
       <input type="checkbox" value="traveling"> Traveling
 
   
+label>Message:</label>
+      <textarea rows="4" placeholder="Write your message..."></textarea>
 
   label>Upload File:</label>
       <input type="file">
